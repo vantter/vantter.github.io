@@ -1,0 +1,8 @@
+- name: Contact
+  link: /contact
+  new_window: false
+  highlight: false
+- name: Start playing
+  link: https://app.vantter.com
+  new_window: true
+  highlight: true

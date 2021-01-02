@@ -1,0 +1,16 @@
+- links:
+  - name: Contact
+    link: /contact
+- links:
+  - name: Start playing
+    link: https://app.vantter.com
+    new_window: true
+- links:
+  - name: Facebook
+    link: https://facebook.com/vantter.app.7/
+    new_window: true
+    social_icon: Facebook
+  - name: Twitter
+    link: https://twitter.com/vantter3/
+    social_icon: Twitter
+    new_window: true

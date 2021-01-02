@@ -1,0 +1,46 @@
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+title: Vantter
+tagline: Gamifying the game
+url: "https://vantter.com"
+google_analytics_key: "G-C4MQ8526VN"
+logo: /favicon.png
+description: Meet women by practicing, completing challenges and competing with your friends. All in the real world.
+author:
+  name: Vantter
+  email: help@vantter.com
+  twitter: vantter3
+social:
+  links:
+    - https://app.vantter.com
+    - https://twitter.com/vantter3/
+    - https://facebook.com/vantter.app.7/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "contact.html"
+    values:
+      full_width: true
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+social_icons:
+  - Facebook
+  - Twitter
